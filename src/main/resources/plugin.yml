@@ -1,0 +1,4 @@
+name: SuperiorSkyBlockProgress
+version: '${project.version}'
+main: io.github.vertanzil.superiorskyblockprogress.SuperiorSkyBlockProgress
+api-version: '1.21'

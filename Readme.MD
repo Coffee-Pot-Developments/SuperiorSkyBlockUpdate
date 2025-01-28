@@ -1,0 +1,1 @@
+Superior skyblock plugin progress updater with bossbar.
