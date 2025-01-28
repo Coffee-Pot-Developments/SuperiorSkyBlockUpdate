@@ -27,16 +27,9 @@ public final class SuperiorSkyBlockProgress extends JavaPlugin implements Listen
 
     @Override
     public void onEnable() {
-        for (Plugin pl : Bukkit.getServer().getPluginManager().getPlugins()) {
-            if (!pl.getPluginMeta().getName().equalsIgnoreCase("SuperiorSkyBlock2")) {
-                //Prints warning and disables plugin.
-                getLogger().log(Level.SEVERE, "Unable to find SuperiorSkyBlock2, disabled the plugin.");
-                getServer().getPluginManager().disablePlugin(this);
-            } else {
                 getLogger().info("SuperiorSkyBlockProgress has been enabled!");
                 getServer().getPluginManager().registerEvents(this, this);
-            }
-        }
+
     }
 
     @Override
